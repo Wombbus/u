@@ -45,7 +45,7 @@ function setup() {
 
 function draw() {
   if (draw_apple == "set") {
-    for (i = 1; i >= to_number; i += 1) {
+    for (i = 1; i <= to_number; i += 1) {
       x = Math.floor(Math.random * 700)
       y = Math.floor(Math.random*400)
       image(apple,x,y,50,50)
